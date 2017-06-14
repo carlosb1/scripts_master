@@ -1,0 +1,3 @@
+[submodule "mcv-m5"]
+	path = mcv-m5
+	url = https://github.com/carlosb1/mcv-m5
