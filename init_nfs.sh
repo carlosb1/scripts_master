@@ -1,4 +1,5 @@
 #!/bin/sh
+#sudo apt-get install nfs-common
 
 DIR_DATASET="$PWD/datasets"
 
