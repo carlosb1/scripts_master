@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATH_DATASET="/home/carlosb/datasets"
+PATH_DATASET="$PWD/datasets"
 PATH_SOURCE_CODE="$PWD/mcv-m5"
 KERAS_OLD=""
 
