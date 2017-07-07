@@ -1,3 +1,6 @@
 [submodule "mcv-m5"]
 	path = mcv-m5
 	url = https://github.com/carlosb1/mcv-m5
+[submodule "examples-ml-dl"]
+	path = examples-ml-dl
+	url = https://github.com/carlosb1/examples-ml-dl
