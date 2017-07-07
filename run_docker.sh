@@ -3,6 +3,7 @@
 PATH_DATASET="$PWD/datasets"
 PATH_RESULTS="$PWD/results"
 PATH_SOURCE_CODE="$PWD/mcv-m5"
+PATH_SOURCE_CODE_PERS_PROJECT="$PWD/pers-src"
 RUN_COMMAND="ipython2"
 
 while getopts "b" OPTION; do
@@ -19,4 +20,4 @@ while getopts "b" OPTION; do
 done
 
 
-sudo nvidia-docker run --dns "158.109.8.6" -it -v="$PATH_RESULTS:/srv/results" -v="$PATH_DATASET:/srv/data" -v="$PATH_SOURCE_CODE:/srv/src/mcv-m5" --rm carlosb/my-nvidia:latest /bin/bash
+sudo nvidia-docker run --dns "158.109.8.6" -it -v="$PATH_RESULTS:/srv/results" -v="$PATH_DATASET:/srv/data" -v="$PATH_SOURCE_CODE:/srv/src/mcv-m5" -v="$PATH_SOURCE_CODE_PERS_PROJECT:/srv/src/pers-src" --rm carlosb/my-nvidia:latest /bin/bash
